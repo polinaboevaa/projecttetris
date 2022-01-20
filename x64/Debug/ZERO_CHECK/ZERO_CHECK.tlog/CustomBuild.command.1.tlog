@@ -1,0 +1,10 @@
+^C:\GIT\PROJECTTETRIS\CMAKEFILES\21A559F36AF4FEABFEB72EE5ADE76B65\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/sfml_sample-main/sfml_sample-main -BC:/git/projecttetris --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/git/projecttetris/sfml_sample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
