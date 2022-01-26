@@ -1,3 +1,0 @@
-C:/git/projecttetris/CMakeFiles/sfml_sample.dir
-C:/git/projecttetris/CMakeFiles/ALL_BUILD.dir
-C:/git/projecttetris/CMakeFiles/ZERO_CHECK.dir
